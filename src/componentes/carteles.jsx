@@ -1,9 +1,11 @@
-function Carteles() {
+import '../styles/Carteles.css'
+
+function Carteles(props) {
   return(
     <div className='Cartelera'>
-      <img src={require("../img/Tap-Water.png")} alt="portada" />
+      <img className='portada' src={require(`../img/${props.img}`)} alt="portada" />
       <div className='Info' >
-        <h2 className='titulo' >Tap Water Pollution</h2>
+        <h2 className='titulo' >{props.title}</h2>
       </div>
     </div>
   );

@@ -1,8 +1,71 @@
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+*{
+  color: white;
+}
+
 .nav-bar{
-  background-color: blue;
-  
+  background-color: rgb(36, 36, 36);
+  padding: 10px;
+
 }
 
 .logo{
-  width: 12em;
+  width: 10em;
+}
+
+.Seccion1{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom: 10px;
+}
+
+.SlideSeccion1{
+  overflow: hidden;
+  width: 920px;
+  height: 380px;
+  display: flex;
+}
+
+@keyframes slide {
+  0% {transform: translateX(0);}
+  10% {transform: translateX(-100%);}
+  20% {transform: translateX(-100%);}
+  30% {transform: translateX(-200%);}
+  40% {transform: translateX(-200%);}
+  50% {transform: translateX(-100%);}
+  80% {transform: translateX(-100%);}
+  90% {transform: translateX(0);}
+  100% {transform: translateX(0);}
+
+}
+
+.Slider {
+  animation: slide 25s infinite;
+}
+
+.Seccion2{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+.cartelera{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: min-content;
+}
+
+.Noticias{
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 6px;
+  padding: 8px 0;
 }

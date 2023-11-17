@@ -1,0 +1,16 @@
+.news{
+  background-color: rgb(28, 28, 28);
+  width: 16em;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 8px;
+}
+
+.port_news{
+  max-width: 100%;
+  height: auto;
+}
+
+.info_news{
+  margin: 10px;
+}

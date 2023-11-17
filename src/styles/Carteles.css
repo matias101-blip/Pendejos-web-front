@@ -1,0 +1,16 @@
+.Cartelera{
+  background-color: rgb(28, 28, 28);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin: 8px;
+  padding: 10px;
+  width: 14em;
+  text-align: center;
+}
+.portada{
+  width: 100%;
+  height: auto;
+}
